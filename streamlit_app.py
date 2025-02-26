@@ -45,7 +45,7 @@ try:
   pg = st.navigation([
     st.Page(home, title="Home"), 
     st.Page("chatbot.py", title="Chatbot"),
-    st.Page("data_refine.py", title="DataRefine")
+    st.Page("data_refine.py", title="Data Refine")
   ])
   pg.run()
 except Exception as e:

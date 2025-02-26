@@ -32,7 +32,7 @@ if files_uploaded:
     if st.checkbox(f"Clean data for {file.name}"):
       if st.button("Remove duplicates"):
         df.drop_duplicates(inplace=True)
-        st.success("Duplicates removed successfull! Please continue")
+        st.success("Duplicates removed successfully! Please continue")
     
 
     st.markdown("### Select columns to Convert")
@@ -70,7 +70,7 @@ if files_uploaded:
     buffer.seek(0)
     
     st.download_button(
-      f"Downloaded {file.name} as {file_type}",
+      f"Download ⬇️ {file.name} as {file_type}",
       data = buffer,
       mime = mime_type,
       file_name = file_name)
