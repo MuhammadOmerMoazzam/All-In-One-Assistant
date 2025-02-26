@@ -3,9 +3,9 @@ import pandas as pd
 import os
 from io import BytesIO
 
-if "toast_shown" not in st.session_state:
-  st.toast("Welcome to **DataRefine**, where you can clean, convert, and visualize your data.💫", icon="🎊")
-  st.session_state.toast_shown = True
+if "data_refine_toast" not in st.session_state:
+  st.toast("Welcome to **Data Refine**, where you can clean, convert, and visualize your data.💫", icon="🎊")
+  st.session_state.data_refine_toast = True
   
 st.title("Hi There🖐️, Let's Refine Some Data ")
 st.markdown("Convert your documents from CSV to Excel or the other way around while cleansing the data.")
