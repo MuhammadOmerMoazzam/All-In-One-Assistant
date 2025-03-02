@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## 🏁 Getting Started
 1. Run the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## 📚 Project Context
